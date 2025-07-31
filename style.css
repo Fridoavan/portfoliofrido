@@ -1,0 +1,105 @@
+/* === LOGO VANZ === */
+.logo {
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: orange;
+  z-index: 1000;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* === NAVIGASI === */
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  text-align: center;
+  border-bottom: 3px solid orange;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: orange;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* === KONTEN HALAMAN === */
+.page {
+  min-height: 100vh;
+  padding-top: 80px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.page::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  border: 2px solid orange;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* === HEADER === */
+header h1 {
+  color: orange;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+      
+
+/* === SECTION === */
+.section h2 {
+  color: orange;
+  margin-top: 30px;
+}
+
+.section ul {
+  padding-left: 20px;
+}
+
+/* === FOOTER === */
+footer {
+  background-color: black;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* === GANTI BACKGROUND SETIAP HALAMAN === */
+.home-page {
+  background-image: url('basketabis.jpeg');
+}
+
+.clip-page {
+  background-image: url('pebasketjawa.jpeg');
+}
